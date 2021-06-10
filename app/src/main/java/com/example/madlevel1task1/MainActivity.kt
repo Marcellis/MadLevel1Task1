@@ -6,12 +6,14 @@ import android.widget.Toast
 import com.example.madlevel1task1.databinding.ActivityHigherLowerBinding
 
 
-private lateinit var binding: ActivityHigherLowerBinding
-private var currentThrow: Int = 1
-private var lastThrow: Int = 1
 
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityHigherLowerBinding
+    private var currentThrow: Int = 1
+    private var lastThrow: Int = 1
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHigherLowerBinding.inflate(layoutInflater)
